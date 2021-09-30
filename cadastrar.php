@@ -27,3 +27,21 @@ try {
   $retorno['msg'] = $e->getMessage();
   die(json_encode($retorno));
 }
+/*
+if($descricao == '' || $valor == '' || $estoque == ''){
+  throw new Exception("Campos com * são obrigatórios"); 
+}
+
+if($descricao == ''){
+  throw new Exception("Campo descricao obrigatório"); 
+}
+
+if($valor == ''){
+  throw new Exception("Campo valor obrigatório"); 
+}
+
+if($estoque == ''){
+  throw new Exception("Campo estoque obrigatório"); 
+}
+
+*/
